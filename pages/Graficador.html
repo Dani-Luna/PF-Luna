@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="../fonts.css">
+  <LINK REL="stylesheet" HREF="../css/style.css">
+</head>
+<body>
+  <header>
+    <ul class="navbar">
+       <li><a href="../index.html">Inicio</a></li>
+       <li><a href="./Contenidos.html">Contenidos de interés</a></li>
+       <li><a href="./Graficador.html">Calculadora</a></li>
+       <li><a href="./Horarios.html">Horarios</a></li>
+       <li><a href="./Ubicacion.html">Ubicación</a></li>
+   </ul>
+</header>
+<!-- Empieza codigo calculadora-->
+  <form name="calculator">
+    <h3>Calculadora<a href="#"></a></h3>
+    <p>Hacé tu cálculo acá</p>
+    <input type="textfield" name="ans" value="">
+    <br>
+    <input type="button" value="1" onClick="document.calculator.ans.value+='1'">
+    <input type="button" value="2" onClick="document.calculator.ans.value+='2'">
+    <input type="button" value="3" onClick="document.calculator.ans.value+='3'">
+    <input type="button" value="+" onClick="document.calculator.ans.value+='+'">
+    <br>
+    <input type="button" value="4" onClick="document.calculator.ans.value+='4'">
+    <input type="button" value="5" onClick="document.calculator.ans.value+='5'">
+    <input type="button" value="6" onClick="document.calculator.ans.value+='6'">
+    <input type="button" value="-" onClick="document.calculator.ans.value+='-'">
+    <br>
+    <input type="button" value="7" onClick="document.calculator.ans.value+='7'">
+    <input type="button" value="8" onClick="document.calculator.ans.value+='8'">
+    <input type="button" value="9" onClick="document.calculator.ans.value+='9'">
+    <input type="button" value="*" onClick="document.calculator.ans.value+='*'">
+    <br>
+    <input type="button" value="0" onClick="document.calculator.ans.value+='0'">
+    <input type="reset" value="c">
+    <input type="button" value="/" onClick="document.calculator.ans.value+='/'">
+    <input type="button" value="=" onClick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+    </form>
+<main id="main3">
+      <section id="section5">
+          <article>
+            <h2 style="text-align: center;">Calculadora gráfica DESMOS</h2>
+          </article>
+      </section>
+</main>
+  <iframe class="desmos-graph" src="https://www.desmos.com/calculator?embed"></iframe>
+<footer>
+    <div class="social">
+        <ul>
+            <li><a href="http://www.facebook.com/" target="_blank" class="icon-facebook"></a></li>
+            <li><a href="http://www.twitter.com/" target="_blank" class="icon-twitter"></a></li>
+            <li><a href="https://www.youtube.com/" target="_blank" class="icon-youtube"></a></li>
+            <li><a href="http://www.pinterest.com/" target="_blank" class="icon-pinterest"></a></li>
+            <li><a href="mailto:contacto@matematica.com" class="icon-mail"></a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>

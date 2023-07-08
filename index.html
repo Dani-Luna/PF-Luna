@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Mi proyecto</title>
+</head>
+<body>
+  <!-- COMIENZO NAV -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href=".//index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href=".//pages/Contenidos.html">Contenidos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href=".//pages/Graficador.html">Graficador</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href=".//pages/horarios.html">Horarios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href=".//pages/Ubicacion.html">Ubicación</a>
+          </li>
+      </div>
+    </div>
+  </nav>
+  <!-- FIN DE NAV -->
+    <main class="container-fluid">
+        <div class="row h-100">
+            <section class="col-sm-12 col-md-12 col-lg-6 col-xl-8 bg-success d-flex flex-column justify-content-center align-items-center">
+                <h1>¿Necesitas ayuda en matemática?</h1>
+                <!-- <p>¡Clases particulares a domicilio, vía zoom y en nuestro centro!</p> -->
+                <p class="fs-5">¡Clases particulares a domicilio, vía zoom y en nuestro centro!</p>
+               
+    <div class="image-container">
+      <img src="./assets/img/BB.jpg" class="img-fluid" alt="...">
+    </div>
+        </section>
+            <aside class="col-sm-12 col-md-12 col-lg-6 col-xl-4 bg-danger bg-gradient ">
+          <!-- ACORDEON -->
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <p class="fst-normal">Información de interés</p>
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          El teorema de los 4 colores
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>¿Qué indica el teorema de los 4 colores?</strong> Dado cualquier mapa geográfico con regiones continuas, éste puede ser coloreado con cuatro colores diferentes, de forma que no queden regiones adyacentes (es decir, regiones que compartan no sólo un punto, sino todo un segmento de borde en común) con el mismo color.
+                          <!-- <code>.accordion-body</code> -->
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                </div>
+<!-- FIN DE ACORDEON -->
+        </aside>
+        </div>
+    </main>
+    <!-- <footer class="container-fluid"> -->
+      <footer class="footer container-fluid">
+        <div class="contact-info">
+           <h3>Contacto</h3>
+             <p>Teléfono: 011-4444-0000</p>
+             <p>Email: info@educación.com</p>
+             <p>Dirección: Av. Ejemplo, Buenos Aires, Argentina</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+    crossorigin="anonymous">
+   </script>
+  </body>
+</html>
