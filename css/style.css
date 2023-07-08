@@ -1,6 +1,6 @@
 body{
     background-image: url(./assets/img/BB.jpg);
-  
+
 }
 body{
     background-color: rgb(219, 222, 224);
@@ -13,8 +13,9 @@ nav.navbar ul.nav li {
 /* PIE DE PÁGINA CONTACTO */
 
 .footer {
-  background-color: rgb(219, 222, 224);
-  padding: 35px;
+  background-color: rgb(223, 217, 217);
+  margin:0;
+  padding: 0.5px;
   text-align: center;
 }
 
@@ -36,13 +37,13 @@ nav.navbar ul.nav li {
 #section1 {
   display: list-item;
   font-size: larger;
- 
+
 }
 /* Barra redes sociales */
 .social {
     position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
     right: 25px; /* Establecemos la barra en la derecha */
-    top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+    top: 300px; /* Bajamos la barra 200px de arriba a abajo */
     z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento*/
 }
 
@@ -71,7 +72,7 @@ nav.navbar ul.nav li {
         background:black; /* Cambiamos el fondo cuando el usuario pase el mouse */
         padding: 30px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
     }
-  
+
 
     /* .navbar {
     display:-ms-flexbox;
@@ -155,7 +156,7 @@ form {
     width: 100%;
     height: 500px;
     }
-      
+
   h3 {
     color: rgb(38, 173, 38);
   }
@@ -167,31 +168,14 @@ form {
     padding: 0.5px;
     box-sizing: border-box;
 }
-/* BOOSTRAP */
-/* .btn-primary {
-    --bs-btn-color: #fff;
-    --bs-btn-bg: #35dc59; 
-    --bs-btn-border-color: #0d6efd;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #0b5ed7 !important;
-    --bs-btn-hover-border-color: #0a58ca !important;
-    --bs-btn-focus-shadow-rgb: 49,132,253;
-    --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #0a58ca;
-    --bs-btn-active-border-color: #0a53be;
-    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-    --bs-btn-disabled-color: #fff;
-    --bs-btn-disabled-bg: #0d6efd;
-    --bs-btn-disabled-border-color: #0d6efd;
-} */
 .navbar {
-  background-color: rgb(10, 12, 10) !important;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; 
-  
+  background-color: rgba(2, 2, 3, 0.849) !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+
   }
 .bg-danger {
     --bs-bg-opacity: 1;
-    background-color:rgb(50, 54, 53)!important;
+    background-color:rgb(135, 182, 226)!important;
 }
 .bg-success {
   --bs-bg-opacity: 1;
@@ -201,7 +185,7 @@ form {
   color: white!important;
 }
 .nav-link {
-  display: white !important;
+  display: rgb(255, 255, 255) !important;
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
@@ -211,4 +195,33 @@ form {
   border: 0;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
-
+.accordion-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+  font-size: 1.5rem;
+  color:rgba(29, 58, 189, 0.733) !important;
+  text-align: left;
+  background-color: var(--bs-accordion-btn-bg);
+  border: 10px;
+  border-radius: 0.5rem;
+  overflow-anchor: none;
+  transition: var(--bs-accordion-transition);
+}
+/* .accordion-button:focus {
+  z-index: 3;
+  border-color:rgba(233, 15, 8, 0.712) !important;
+  outline: 40px !important;
+  box-shadow: var(--bs-accordion-btn-focus-box-shadow);
+} */
+.navbar-brand {
+  padding-top: var(--bs-navbar-brand-padding-y);
+  padding-bottom: var(--bs-navbar-brand-padding-y);
+  margin-right: var(--bs-navbar-brand-margin-end);
+  font-size: var(--bs-navbar-brand-font-size);
+  color:rgb(236, 234, 234) !important;
+  text-decoration: none;
+  white-space: nowrap;
+}
