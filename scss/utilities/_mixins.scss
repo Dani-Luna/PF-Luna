@@ -1,0 +1,21 @@
+@mixin Parrafo {
+    font-size: 18px;
+    background-color: #dddddd;
+  }
+
+  p1 {
+    @include Parrafo;
+  }
+
+@mixin img($width, $display, $tipo, $justify-content, $align-content, $padding)
+{
+    width:$width;
+    display: $display;
+    flex-direction: $tipo;
+    justify-content: $justify-content;
+    align-items: $align-content;
+    padding: $padding;
+}
+img {
+    @include img (100%, flex, column, center, center, 0px);
+}
